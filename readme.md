@@ -22,3 +22,4 @@ function adding(){
 
 adding();
 ##for the second euler
+uncommented other recursion example in es2015 cuz i didnt see the need to not run it, npm install babel-cli and then babel-node is how i run this
