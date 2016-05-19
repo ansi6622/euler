@@ -9,7 +9,7 @@ function Fibonacci() {
     }
     return f;
   }
-
+////
   this.recursive = function(n){
     if(n <= 2){
       return 1;
@@ -18,4 +18,18 @@ function Fibonacci() {
       return this.recursive(n-1) + this.recursive(n - 2)
     }
   }
+///////////
+this.akyuna = function(i){
+var v1 = 1;
+var v2 = 1;
+var v3 = v1 + v2;
+
+    while(v3 < i){
+        console.log(v3);
+        v1 = v2;
+        v2 = v3;
+        v3 = v1 + v2;
+    }
+  }
+fib(4000000);
 }

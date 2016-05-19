@@ -3,7 +3,7 @@
 //run using `babel-node this.js`
 
 let countDownFrom = (num) => {
-  if (num === 0) return;
+  // if (num === 0) return;
   console.log(num);
   countDownFrom(num - 1)
 }
